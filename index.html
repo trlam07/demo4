@@ -4,8 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <!-- Header section -->
+    <div class="header">
+        Coffee Shop
+    </div>
+    <!-- Navigation section -->
+    <div class="navigation">
+        <a href="">Home</a>
+        <a href="">Menu</a>
+        <a href="">Order</a>
+    </div>
+
+    <hr class="divider">
+    <!-- About secction -->
+    <div class="about">
+        <h2 class="about__title">About our coffee</h2>
+        <p class="about__description">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores officiis eligendi mollitia reprehenderit optio ab. A eveniet ab est reiciendis amet iusto ratione iure totam, nam fuga consequatur. Exercitationem, voluptate!
+        </p>
+    </div>
+
+    <hr class="divider">
+    <!-- Special section -->
+    <div class="special">
+        <h2 class="special__title">Special Items</h2>
+        <div class="first-list">
+            <h3 class="first-list__title">The Coffee List 1</h3>
+            <ul>
+                <li>Black Coffee</li>
+                <li>Pink Coffee</li>
+                <li>Green</li>
+            </ul>
+            <div class="first-list__image">
+                <img src="./Image_buoi4/chilling-cafe-01.jpg" alt="">
+                <img src="./Image_buoi4/chilling-cafe-11.jpg" alt="">
+            </div>
+            <div class="second-list">
+                <h3 class="second-list__title">The Coffee List 3</h3>
+                <ol>
+                    <li>Soft Deli Cup</li>
+                    <li>Coffee Art</li>
+                    <li>Speciality Tea</li>
+                </ol>
+                <div class="second-list__image">
+                    <img src="./Image_buoi4/chilling-cafe-12.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="divider">
+    <!-- Menu section -->
+    <div class="menu">
+        <h3 class="menu__title">Menu</h3>
+        <table class="menu__table">
+            <tr>
+                <th colspan="2">Name</th>
+                <th>Type</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td rowspan="4"
+                class="traditional">Tradional</td>
+                <td rowspan="2">Vietnamese</td>
+                <td>Hot</td>
+                <td>40,000</td>
+            </tr>
+            <tr>
+                <td>Cold</td>
+                <td>28,000</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Milk</td>
+                <td>Hot</td>
+                <td>38,000</td>
+            </tr>
+            <tr>
+                <td>Cold</td>
+                <td>54,000</td>
+            </tr>
+            <tr>
+                <td rowspan="3"
+                class="espresso">Expresso</td>
+                <td>American</td>
+                <td rowspan="3">Hot</td>
+                <td>110,000</td>
+            </tr>
+            <tr>
+                <td>Machiato</td>
+                <td rowspan="2">40,000</td>
+            </tr>
+            <tr>
+                <td>Cappuchino</td>
+            </tr>
+        </table>
+    </div>
+    <hr class="divider">
+    <!-- Footer section -->
+    <div class="footer">
+        <h3 class="footer__title">Talk to us</h3>
+        <p class="footer__contact-info">Reach us via <b>Email:</b> <a href="#">abc@gmail.com</a>  
+            or <b>Hotline:</b> <i><b>0123456789</b></i>.
+        </p>
+    </div>
 </body>
 </html>
